@@ -54,8 +54,12 @@ function ProductScreen() {
                 </Row>
               </ListGroupItem>
 
+              <ListGroupItem>
+                <Button className='btn-black w-100' type='button' disabled={product.countInStock === 0}>Add to Cart</Button>
+              </ListGroupItem>
+
             </ListGroup>
-          </Card>
+          </Card> . 
         </Col>
     </Row>
   </div>
